@@ -1,0 +1,181 @@
+/*========COMMON STYLES=========*/
+.list {
+list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/*========COMMON STYLES=========*/
+
+/*=========HEADER===============*/
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logotype-span {
+    font-family: 'Raleway', sans-serif;
+color: #2E2F42;
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.mail-link {    
+font-size: 16px;
+line-height: 1.5; 
+color: #434455;
+}
+
+.tel-link {
+    font-size: 16px;
+line-height: 1.5; 
+color: #434455;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: #404BBF;
+}
+.tel-link:hover,
+.tel-link:focus {
+    color: #404BBF;
+}
+
+/*=========HEADER===============*/
+
+/*==============HERO============*/
+
+.main-slogan {
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+color: #FFFFFF;
+background:#2E2F42;
+}
+
+.order-button {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-button:hover {
+    border-radius: 4px;
+    background: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*==============HERO============*/
+
+/*=============OUR PRINCIPALS========*/
+
+.principal-header {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+}
+
+.principal-text {
+font-size: 16px;
+line-height: 1.5; 
+color: #434455;
+}
+
+/*=============OUR PRINCIPALS========*/
+
+/*============OUR TEAM================*/
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.team-section-header {
+    text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+text-transform: capitalize;
+}
+
+.team-member-card {
+    background: #FFFFFF;
+}
+
+.team-member-name {
+ text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+}
+
+.team-member-position {
+text-align: center;
+font-size: 16px;
+line-height: 1.5; 
+color: #434455;
+}
+/*============OUR TEAM================*/
+
+/*============OUR PORTFOLIO============*/
+
+.portfolio-section-header {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+text-transform: capitalize;
+}
+
+.portfolio-item-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+}
+
+.portfolio-item-description {
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+/*============OUR PORTFOLIO============*/
+
+/*=============FOOTER==================*/
+.credo {
+font-size: 16px;
+line-height: 1.5; 
+color: #F4F4FD;
+background: #2E2F42;
+}
