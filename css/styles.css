@@ -14,7 +14,8 @@ button {
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;;
 }
 /*========COMMON STYLES=========*/
 
@@ -46,24 +47,18 @@ color: #2E2F42;
     color: #404BBF;
 }
 
-.mail-link {    
+.contacts {
+    font-style: normal
+}
+
+.contacts-item-link {    
 font-size: 16px;
 line-height: 1.5; 
 color: #434455;
 }
 
-.tel-link {
-    font-size: 16px;
-line-height: 1.5; 
-color: #434455;
-}
-
-.mail-link:hover,
-.mail-link:focus {
-    color: #404BBF;
-}
-.tel-link:hover,
-.tel-link:focus {
+.contacts-item-link:hover,
+.contacts-item-link:focus {
     color: #404BBF;
 }
 
@@ -71,13 +66,17 @@ color: #434455;
 
 /*==============HERO============*/
 
+.hero-section {
+    background-color: #2e2f42;
+}
+
 .main-slogan {
 text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
+letter-spacing: 0.02em;
 color: #FFFFFF;
-background:#2E2F42;
 }
 
 .order-button {
@@ -91,7 +90,8 @@ background: #4D5AE5;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
     border-radius: 4px;
     background: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -104,13 +104,14 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .principal-header {
 font-size: 20px;
 font-weight: 500;
-line-height: 1.2; 
+line-height: 1.2;
+letter-spacing: 0.02em; 
+color: #2E2F42;
 }
 
 .principal-text {
 font-size: 16px;
 line-height: 1.5; 
-color: #434455;
 }
 
 /*=============OUR PRINCIPALS========*/
@@ -126,7 +127,9 @@ color: #434455;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
+letter-spacing: 0.02em;
 text-transform: capitalize;
+color: #2E2F42;
 }
 
 .team-member-card {
@@ -138,13 +141,14 @@ text-transform: capitalize;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .team-member-position {
 text-align: center;
 font-size: 16px;
 line-height: 1.5; 
-color: #434455;
 }
 /*============OUR TEAM================*/
 
@@ -155,24 +159,36 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
+letter-spacing: 0.02em;
 text-transform: capitalize;
+color: #2E2F42;
 }
 
 .portfolio-item-name {
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .portfolio-item-description {
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
 }
 
 /*============OUR PORTFOLIO============*/
 
 /*=============FOOTER==================*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logotype-span {
+    font-family: 'Raleway', sans-serif;
+color: #f4f4fd;
+}
+
 .credo {
 font-size: 16px;
 line-height: 1.5; 
