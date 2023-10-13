@@ -31,7 +31,7 @@ color: #4D5AE5;
 }
 
 .logotype-span {
-    font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 color: #2E2F42;
 }
 
@@ -71,6 +71,7 @@ color: #434455;
 }
 
 .main-slogan {
+    text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
@@ -118,6 +119,7 @@ line-height: 1.5;
 }
 
 .team-section-header {
+    text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
@@ -147,6 +149,7 @@ line-height: 1.5;
 /*============OUR PORTFOLIO============*/
 
 .portfolio-section-header {
+    text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
